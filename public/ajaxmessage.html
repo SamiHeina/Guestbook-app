@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Ajax message</title>
+</head>
+<body>
+  <div class="container">
+    <nav class="navbar">
+      <a href="/">Home</a>
+      <a href="/guestbook">Guestbook</a>
+      <a href="/newmessage">New Message</a>
+      <a href="/ajaxmessage">AJAX Message</a>
+    </nav>
+
+    <header class="Welcome">
+      <h1>Ajax!</h1>
+    </header>
+    <p class="WelcomeText">Just an ajax message.</p>
+    <form class="messageForm" id="ajaxForm">
+      <div>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <div>
+        <label for="country">Country:</label>
+        <input type="text" id="country" name="country" required>
+      </div>
+      <div>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+      </div>
+      <button type="submit" id="submitButton">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
+
